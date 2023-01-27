@@ -7,7 +7,7 @@ Simple Note/Todo App  with CRUD operation
 
 [View Live Demo](https://simple-note-todo-app.netlify.app/)
 
-## using tecnology/packages
+## using technology/packages
 
 - react js
 - contex-api
