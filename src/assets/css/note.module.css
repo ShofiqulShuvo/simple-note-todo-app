@@ -1,0 +1,126 @@
+
+
+.note {
+    background-color: #fdf8b3;
+    width: 300px;
+    height: 240px;
+    margin: 2rem 1rem 0;
+    padding: 1rem 1rem 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .10s ease-in-out;
+}
+
+.note:hover {
+    box-shadow:  -1px -1px 2px #999996, 2px 2px 4px #81817d;
+    transform: translateY(-2px);
+}
+
+.heading {
+    color: rgb(0, 0, 0);
+    padding-bottom: .75rem;
+    margin-bottom: .75rem;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.heading h4 {
+    font-size: 1rem;
+    word-wrap: break-word;
+}
+
+.noteDetails {
+    padding-left: .25rem;
+    align-self: flex-start;
+    height: 100%;
+    width: 100%;
+    color: rgb(72, 71, 73);
+    padding-bottom: .75rem;
+    overflow: auto;
+}
+
+.noteDetails p {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 1rem;
+}
+
+.footer {
+    border-top: 1px solid rgba(51, 51, 51, 0.2);
+    width: 100%;
+    padding: .20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date {
+    color: #555;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-left: auto;
+}
+
+.btn {
+    margin-left: .50rem;
+    padding: .15rem;
+    font-size: .9rem;
+    color: #555;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    color: #000;
+    transform: scale(1.02);
+    transition: .10s ease-in-out;
+}
+
+.editBtn:hover {
+    color: #0d79f3;
+}
+
+.deleteBtn:hover,
+.crossBtn:hover {
+    color: #A70014;
+}
+
+.submitBtn:hover {
+    color: rgb(0, 100, 0);
+}
+
+.headingInput {
+    font-family: inherit;
+    width: 100%;
+    border: none;
+    color: inherit;
+    background-color: transparent;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0;
+}
+
+.noteInputDetails {
+    align-self: flex-start;
+    height: 100%;
+    width: 100%;
+    padding-bottom: .75rem;
+    color: #555;
+}
+
+.detailsInput {
+    font-family: inherit;
+    width: 100%;
+    min-height: 100%;
+    border: none;
+    color: inherit;
+    background-color: transparent;
+    outline: none;
+    font-size: 1rem;
+    padding: 0;
+}

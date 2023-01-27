@@ -1,0 +1,42 @@
+
+.navbar {
+    background-color: #f8f3a5;
+    color: #121212;
+    box-shadow: 1px 1px 10px rgba(160, 137, 33, 0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: .75rem;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: .25rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: .75rem;
+}
+
+.addNote {
+    color: #ffffff;
+    background-color: #207cfd;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: .40rem .75rem;
+    transition: .20s ease-in-out;
+    cursor: pointer;
+}
+
+.addNote:hover {
+    background-color: #085cd3;
+}
