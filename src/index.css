@@ -28,11 +28,10 @@
   }
   
   .home {
-    padding: 0 .50rem 1rem;
+    padding: 0 .50rem 5rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     overflow-y: auto !important ;
     max-height: 85vh;
-  
   }
